@@ -4,7 +4,7 @@ import { NavBar } from "./NavBar";
 import { Banner } from "./Banner";
 // import { Intro } from "./Intro";
 import { Skills } from "./Skills";
-// import { Projects } from "./Projects";
+import { Projects } from "./Projects";
 // import { Contact } from "./Contact";
 // import { Footer } from "./Footer";
 
@@ -16,6 +16,7 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
+      <Projects />
     </div>
     </>
   );
