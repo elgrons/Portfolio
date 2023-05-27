@@ -1,13 +1,23 @@
-import logo from './logo.svg';
-import './src/App.css';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavBar } from "./NavBar";
+import { Banner } from "./Banner";
+// import { Intro } from "./Intro";
+import { Skills } from "./Skills";
+// import { Projects } from "./Projects";
+// import { Contact } from "./Contact";
+// import { Footer } from "./Footer";
+
 
 function App() {
   return (
+    <>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <NavBar />
+      <Banner />
+      <Skills />
     </div>
+    </>
   );
 }
 
