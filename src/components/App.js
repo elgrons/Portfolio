@@ -5,9 +5,9 @@ import { Banner } from "./Banner";
 // import { Intro } from "./Intro";
 import { Skills } from "./Skills";
 import { Projects } from "./Projects";
-// import { Contact } from "./Contact";
-// import { Footer } from "./Footer";
-
+import { Contact } from "./Contact";
+import { Footer } from "./Footer";
+// import { Resume } from "./Resume";
 
 function App() {
   return (
@@ -17,6 +17,8 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
     </>
   );
