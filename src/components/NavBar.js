@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import navIcon1 from '../assets/img/navlinkedIn.png';
 import navIcon2 from '../assets/img/navgithub.png';
 // import navIcon3 from '../assets/img/logo.svg';
-// import './App.css';
+import './App.css';
 // import { HashLink } from 'react-router-hash-link';
 
 export const NavBar = () => {
@@ -34,7 +34,7 @@ export const NavBar = () => {
     <Router>
       <Navbar fixed="top" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="#home">Eliot Gronstal's Dev Portfolio</Navbar.Brand>
+        <Navbar.Brand href="#home">E. L. G.</Navbar.Brand>
         {/* <img src={logo} alt="logo" /> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <span className="navbar-toggler-icon"></span>
@@ -44,14 +44,15 @@ export const NavBar = () => {
             <Nav.Link href="#intro" className={activeLink === 'intro' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('intro')}>Intro</Nav.Link>
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-            <Nav.Link href="#Resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
+            <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
           </Nav>
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/elgrons/"><img src={navIcon1} alt="LinkedIn nav icon" /></a>
                 <a href="https://github.com/elgrons"><img src={navIcon2} alt="GitHub nav icon" /></a>
               </div>
-              <button className="vvd" onClick={() => console.log ('connect')}><span>"We are all in this together." Let's connect.</span></button>
+              <a href="https://drive.google.com/file/d/1GNyuz1J2fHwVAVGTM0mgdW5MvePTe5bL/view?usp=sharing">
+              <button className="vvd" onClick={() => console.log ('resume')}><span>Review My Resume</span></button></a>
             </span>
           </Navbar.Collapse>
         </Container>

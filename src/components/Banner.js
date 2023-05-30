@@ -2,16 +2,16 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/ELGronstal.png";
 import React, { useState, useEffect } from "react";
-// import 'animate.css';
-// import TrackVisibility from 'react-on-screen';
-// import './App.css';
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
+import './App.css';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["Eliot Gronstal", "Jr Software Engineer", "Full Stack Developer"];
+  const toRotate = [ "Jr Software Engineer", "Full Stack Developer"];
   const period = 2000;
 
   useEffect(() => {
@@ -51,21 +51,27 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to EG Portfolio</span>
-            <h1>
-              {`Hi I'm Eliot`}
-              <span className="wrap">{text}a full-stack software engineer</span>
-            </h1>
-            <p>I'm an enthusiastic former service-industry pro segueing into a junior full-stack software engineer. I'm pivoting into tech and bringing my top-notch communication skills, organizational prowess, and growth mindset along. I'm a team player who is excited to apply my attention to detail and customer-focused expertise to the world of software engineering. I use she/her pronouns.</p>
-            <button onClick={() => console.log("connect")}>
-              Code, connect, communicate! <ArrowRightCircle size={25}> </ArrowRightCircle>
-            </button>
+            <TrackVisibility>
+              {({ isVisible }) =>
+              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <span className="tagline">Welcome to My Portfolio</span>
+                <h1>{`Hi! I'm Eliot:`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Jr Software Engineer", "Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>I'm an exuberant former service-industry pro segueing into a new career as a junior full-stack software engineer.<br></br></p>
+                  <a href="mailto: eliot.lauren@gmail.com">
+                  <button onClick={() => console.log('contact')}>Let’s chat! <ArrowRightCircle size={38} /></button></a>
+              </div>}
+            </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Header Img" />
+            <TrackVisibility>
+              {({ isVisible }) =>
+                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                  <img src={headerImg} alt="Header Img"/>
+                </div>}
+            </TrackVisibility>
           </Col>
         </Row>
       </Container>
     </section>
-  );
-};
+  )
+}

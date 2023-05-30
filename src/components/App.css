@@ -1,21 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 /*Custom Fonts*/
-@font-face {
-  font-family: Centra;
-  src: url('../assets/font/CentraNo2-Bold.ttf');
+/* @font-face {
+  font-family: 'Jost';
+  src: url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
   font-weight: 700;
 }
 
 @font-face {
-  font-family: Centra;
-  src: url('../assets/font/CentraNo2-Medium.ttf');
+  font-family: 'Jost';
+  src: url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
   font-weight: 500;
 }
 
 @font-face {
-  font-family: Centra;
-  src: url('../assets/font/CentraNo2-Book.ttf');
+  font-family: Jost;
+  src: url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
   font-weight: 400;
-}
+} */
 
 /*Default CSS*/
 
@@ -35,8 +36,8 @@ body {
   overflow-x: hidden;
   position: relative;
   background-color: #121212 !important;
-  color: #fff !important;
-  font-family: 'Centra', sans-serif, !important;
+  color: #52565e !important;
+  font-family: 'Jost', sans-serif, !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -84,7 +85,7 @@ p.success {
 p.danger {
 	color: red;
 }
-/************ Navbar Css ************/
+/**** Navbar ****/
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -95,7 +96,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #ff6c5f;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -237,7 +238,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('../assets/img/portfoliobackgroundeg.png');
+  background-image: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4)), url('../assets/img/portfoliobackgroundeg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -246,14 +247,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, #B39903 -5.91%, #CACDAC 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 72px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -261,16 +262,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
-  font-size: 18px;
+  color: #603D20;
+  font-size: 28px;
+  font-weight: 800;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
 }
 .banner button {
-  color: #fff;
+  color: #52565e;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 26px;
   margin-top: 60px;
   letter-spacing: 0.8px;
   display: flex;
@@ -285,25 +287,71 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
-  animation: updown 3s linear infinite;
-}
-@keyframes updown {
-    0% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
-}
+
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
 
-/************ Skills Css ************/
+
+/**** Intro ****/
+.intro {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-image: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4)), url('../assets/img/portfoliobackgroundeg.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.intro .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, #B39903 -5.91%, #CACDAC 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.intro h1 {
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.intro p {
+  color: #603D20;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.intro button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.intro button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.intro button:hover svg {
+  margin-left: 25px;
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
+/**** Skills ****/
 .skill {
   padding: 0 0 50px 0;
   position: relative;
@@ -343,7 +391,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/**** Projects ****/
 .project {
   padding: 80px 0;
   position: relative;
@@ -469,7 +517,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Projects ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;

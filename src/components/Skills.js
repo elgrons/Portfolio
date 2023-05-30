@@ -6,7 +6,6 @@ import flower2 from "../assets/img/flower2.png"
 import flower3 from "../assets/img/flower3.png"
 import gradient1 from "../assets/img/gradient1.png"
 
-
 export const Skills = () => {
 
   const responsive = {

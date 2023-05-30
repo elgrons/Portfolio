@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import gradient2 from "../assets/img/gradient2.png";
-// import 'animate.css';
+import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { ProjectFolio } from "./ProjectFolio";
 // import projImg1 from "../assets/img/project-img1.png";
@@ -44,7 +44,7 @@ export const Projects = () => {
 
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>

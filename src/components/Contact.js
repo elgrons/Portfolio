@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/floral.png";
 import emailjs from '@emailjs/browser';
-// import 'animate.css';
+import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Contact = () => {
@@ -38,27 +38,9 @@ export const Contact = () => {
       });
   };
 
-  //   setButtonText("Sending...");
-  //   let response = await fetch("http://localhost:3001/contact", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json;charset=utf-8",
-  //     },
-  //     body: JSON.stringify(formDetails),
-  //   });
-  //   setButtonText("Send");
-  //   let result = await response.json();
-  //   setFormDetails(formInitialDetails);
-  //   if (response.status === 200) {
-  //     setStatus({ succes: true, message: 'Message sent successfully'});
-  //   } else {
-  //     setStatus({ succes: false, message: 'Something went wrong, please try again.'});
-  //   }
-  //   alert(result.status);
-  // };
 
   return (
-    <section className="contact" id="connect">
+    <section className="contact" id="contact">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
