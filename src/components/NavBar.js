@@ -31,7 +31,7 @@ export const NavBar = () => {
     <Router>
       <Navbar fixed="top" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="#home"style={{ fontFamily: 'Original Surfer' }}> eliot gronstal</Navbar.Brand>
+        <Navbar.Brand href="#home"style={{ fontFamily: 'Original Surfer' }}>~ eliot gronstal ~</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <span className="navbar-toggler-icon"></span>
         <Navbar.Collapse id="basic-navbar-nav">

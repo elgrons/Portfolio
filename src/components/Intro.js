@@ -1,32 +1,35 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/ELGronstal.png";
-import React, { useState, useEffect } from "react";
+import { Flower1 } from "react-bootstrap-icons";
+// import introImg from "../assets/img/ELGronstal.png";
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
 import './App.css';
 
 export const Intro = () => {
-  // const [loopNum, setLoopNum] = useState(0);
-  // const [isDeleting, setIsDeleting] = useState(false);
-  // const [text, setText] = useState("");
-  // const [delta, setDelta] = useState(300 - Math.random() * 100);
-  // const toRotate = [ "Jr Software Engineer", "Full Stack Developer"];
-  // const period = 2000;
 
   return (
     <section className="intro" id="intro">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={12} xl={12}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+          <Col xs={12} s={8} md={5}>
+          <div className="hobbies">
+            <p>In my free time I enjoy:</p>
+            <h3><Flower1 size={38} /> Practicing vinyasa yoga</h3><br></br>
+            <h3><Flower1 size={38} /> Listening to music and attending concerts</h3><br></br>
+            <h3><Flower1 size={38} /> Collecting recipes and cooking plant-based goodies</h3><br></br>
+            <h3><Flower1 size={38} /> Devouring good stories: <a href=
+            "https://www.goodreads.com/user/show/7976181-eliot">science fiction & fantasy novels </a> especially, but I love TV shows and movies, too! </h3><br></br>
+            <h3><Flower1 size={38} /> My two cats: Handsome & Holiday</h3><br></br>
+          </div>
+            </Col>
+            <Col xs={12} s={8} md={7}>
+            <div>
                 <span className="tagline">About Me</span>
-                <h3>Hi! I'm Eliot</h3>
-                  <p>I'm an enthusiastic former service-industry pro segueing into a junior full-stack software engineer.<br></br> I'm pivoting into tech and bringing my top-notch communication skills, organizational prowess, and growth mindset along. I'm a team player who is excited to apply my attention to detail and customer-focused expertise to the world of software engineering. <br></br>I use she/her pronouns.</p>
-              </div>}
-            </TrackVisibility>
+                  <p>I'm an enthusiastic former service-industry pro segueing into a new career in tech.<br></br><br></br> After 8.5 years of working for a <a href="https://breakside.com/">world-class microbrewery</a>, I decided to make a big pivot in January 2023 and pursue a career in software development. I completed my Mobile and Web Development Certificate at <a href="https://www.epicodus.com/">Epicodus</a> in May 2023.</p>
+                  <br></br><br></br> 
+                  <p>I am eager to bring my top-notch communication skills, organizational prowess, and growth mindset to a new team.</p>
+                  <br></br><br></br>
+                  <p>I value people greatly and love when I get to connect, collaborate, and communicate with others.</p>
+              </div>
           </Col>
         </Row>
       </Container>
