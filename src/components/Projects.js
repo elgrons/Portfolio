@@ -2,9 +2,18 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { ProjectFolio } from "./ProjectFolio";
-import javascriptImg1 from "../assets/img/mrroboger.png";
-import javascriptImg2 from "../assets/img/niceslicepizza.png";
-import javascriptImg3 from "../assets/img/currencyexchanger.png";
+import javascriptImg1 from "../assets/img/project/mrroboger.png";
+import javascriptImg2 from "../assets/img/project/niceslicepizza.png";
+import javascriptImg3 from "../assets/img/project/currencyexchanger.png";
+import csImg1 from "../assets/img/project/mrroboger.png";
+import csImg2 from "../assets/img/project/niceslicepizza.png";
+import csImg3 from "../assets/img/project/currencyexchanger.png";
+import reactImg1 from "../assets/img/project/mrroboger.png";
+import reactImg2 from "../assets/img/project/niceslicepizza.png";
+import reactImg3 from "../assets/img/project/currencyexchanger.png";
+import teamImg1 from "../assets/img/project/walkencloset.png";
+import teamImg2 from "../assets/img/project/DilPr.png";
+import teamImg3 from "../assets/img/project/SurrealistDreams.png";
 
 export const Projects = () => {
   const javascriptproj = [
@@ -47,16 +56,31 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
+      details: (
+        <a href="https://github.com/elgrons/Currency-Exchange">
+          Visit the GitHub Repo
+        </a>
+      ),
       // imgUrl: projImg1,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
+      details: (
+        <a href="https://github.com/elgrons/Currency-Exchange">
+          Visit the GitHub Repo
+        </a>
+      ),
       // imgUrl: projImg2,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
+      details: (
+        <a href="https://github.com/elgrons/Currency-Exchange">
+          Visit the GitHub Repo
+        </a>
+      ),
       // imgUrl: projImg3,
     },
   ];
@@ -65,35 +89,65 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
+      details: (
+        <a href="https://github.com/elgrons/Currency-Exchange">
+          Visit the GitHub Repo
+        </a>
+      ),
       // imgUrl: projImg1,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
+      details: (
+        <a href="https://github.com/elgrons/Currency-Exchange">
+          Visit the GitHub Repo
+        </a>
+      ),
       // imgUrl: projImg2,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
+      details: (
+        <a href="https://github.com/elgrons/Currency-Exchange">
+          Visit the GitHub Repo
+        </a>
+      ),
       // imgUrl: projImg3,
     },
   ];
 
   const teamproj = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      // imgUrl: projImg1,
+      title: "Christopher Walken Closet",
+      description: "A closet builder made using JavaScript based on a user's input `mood` color that returns a suggested palette with an API and has links for shopping. ",
+      details: (
+        <a href="https://github.com/elgrons/team-thread">
+          Visit the GitHub Repo
+        </a>
+      ),
+      imgUrl: teamImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      // imgUrl: projImg2,
+      title: "DiLPr",
+      description: "A .NET Mvc app for Dogs to find and match with other dogs to see if they're inpupatible or down to woof. Puppr Profiles include a profile photo, matching with other dogs based on likes and dislikes, and the ability to swipe left or right on other user's profiles.",
+      details: (
+        <a href="https://github.com/elgrons/DiLPr.Solution">
+          Visit the GitHub Repo
+        </a>
+      ),
+      imgUrl: teamImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      // imgUrl: projImg3,
+      title: "Surrealist Reverie",
+      description: "An ethereal React website that store a user's dreams so they can recall our surrealist reveries at a later time for inspiration.",
+      details: (
+        <a href="https://github.com/elgrons/SurrealistReverie">
+          Visit the GitHub Repo
+        </a>
+      ),
+      imgUrl: teamImg3,
     },
   ];
 
