@@ -9,7 +9,7 @@ import { ProjectFolio } from "./ProjectFolio";
 
 export const Projects = () => {
 
-  const projects = [
+  const javascriptproj = [
     {
       title: "Business Startup",
       description: "Design & Development",
@@ -24,7 +24,10 @@ export const Projects = () => {
       title: "Business Startup",
       description: "Design & Development",
       // imgUrl: projImg3,
-    },
+    }
+  ];
+
+    const csproj = [
     {
       title: "Business Startup",
       description: "Design & Development",
@@ -42,6 +45,42 @@ export const Projects = () => {
     },
   ];
 
+  const reactproj = [
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      // imgUrl: projImg1,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      // imgUrl: projImg2,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      // imgUrl: projImg3,
+    }
+  ];
+
+  const teamproj = [
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      // imgUrl: projImg1,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      // imgUrl: projImg2,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      // imgUrl: projImg3,
+    }
+  ];
+
 
   return (
     <section className="project" id="projects">
@@ -56,35 +95,68 @@ export const Projects = () => {
           <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab1</Nav.Link>
+                      <Nav.Link eventKey="first">JavaScript/CSS</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">C#/.NET</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third">React</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="fourth">Team Projects</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          javascriptproj.map((project, index) => {
                             return (
                               <ProjectFolio
                                 key={index}
-                                {...project}
+                                {...javascriptproj}
                                 />
                             )
                           })
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum.</p>
+                    <Tab.Pane eventKey="second">
+                    {
+                          csproj.map((project, index) => {
+                            return (
+                              <ProjectFolio
+                                key={index}
+                                {...csproj}
+                                />
+                            )
+                          })
+                        }
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum</p>
+                    {
+                          reactproj.map((project, index) => {
+                            return (
+                              <ProjectFolio
+                                key={index}
+                                {...reactproj}
+                                />
+                            )
+                          })
+                        }
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="fourth">
+                    {
+                          teamproj.map((project, index) => {
+                            return (
+                              <ProjectFolio
+                                key={index}
+                                {...teamproj}
+                                />
+                            )
+                          })
+                        }
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

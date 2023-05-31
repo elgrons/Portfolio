@@ -5,6 +5,7 @@ import flower1 from "../assets/img/flower1.png"
 import flower2 from "../assets/img/flower2.png"
 import flower3 from "../assets/img/flower3.png"
 import gradient1 from "../assets/img/gradient1.png"
+import gradient2 from "../assets/img/gradient2.png"
 
 export const Skills = () => {
 
@@ -34,8 +35,8 @@ export const Skills = () => {
         <Row>
           <Col>
             <div className="skill-box">
-              <h3>Skills</h3>
-                <p>Lorem Ipsum Fill with Skills!</p>
+              <h2>Skills</h2>
+                <p>I'm enthusiastic about what I know, and I'm eager to add new technologies as I learn them.</p>
                 <Carousel responsive={responsive} infinite={true} className="skill-slider">
                   <div className="item"> 
                     <img src={flower1} alt="Icon to show skill" />
@@ -53,12 +54,26 @@ export const Skills = () => {
                     <img src={flower1} alt="Icon to show skill" />
                     <h5>JavaScript/CSS</h5>
                   </div>
+                  <div className="item"> 
+                    <img src={flower1} alt="Icon to show skill" />
+                    <h5>REST APIs</h5>
+                  </div>
+                  <div className="item"> 
+                    <img src={flower2} alt="Icon to show skill" />
+                    <h5>Test Driven Development</h5>
+                  </div>
+                  <div className="item"> 
+                    <img src={flower3} alt="Icon to show skill" />
+                    <h5>MySQL</h5>
+                  </div>
                 </Carousel>
             </div>
           </Col>        
         </Row>
       </Container>
       <img className="background-image-left" src={gradient1} alt="gradient circle at the corner of the skill section"/>
+      <img className="background-image-right" src={gradient2} alt="gradient circle at the corner of the skill section"/>
+
     </section>
   )
 }

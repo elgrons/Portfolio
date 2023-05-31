@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/floral.png";
+import contactImg from "../assets/img/contacteliot1.png";
 import emailjs from '@emailjs/browser';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -43,18 +43,18 @@ export const Contact = () => {
     <section className="contact" id="contact">
       <Container>
         <Row className="align-items-center">
-          <Col size={12} md={6}>
+          <Col size={12} md={4}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Me"/>
               }
             </TrackVisibility>
           </Col>
-          <Col size={12} md={6}>
+          <Col size={12} md={8}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Connect with Me</h2>
+                <h2>Let's Chat, Code, and Connect</h2>
                 <form ref={contactForm} onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
