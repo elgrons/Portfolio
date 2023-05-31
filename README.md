@@ -1,5 +1,28 @@
-//left off from tutotorial at 37.17
-//https://www.youtube.com/watch?v=hYv6BM2fWd8
+# _Eliot's Portfolio Site_
+
+#### By Eliot Gronstal 5.31.23
+
+#### _A React portfolio site designed to give a visitor an idea of who I am, what I've been working on, and a way to connect directly._
+
+## Technologies Used
+
+* _React_
+* _JavaScript/CSS_
+* _Bootstrap_
+* _Emailjs_
+* _Nodemailer_
+* _Node.js_
+
+## Setup/Installation Requirements
+
+* First, copy the git repository url and open a shell program & navigate to your machine's desktop
+* Clone the repository using the copied URL and the `git clone` command
+* In the shell program, navigate to the root directory of the newly created file called "inventory-tracker"
+* Run the `npm install` command to install dependencies
+* After the installation updates, in the root directory type `npm run start` to start the program
+* If the web page doesn't open on its own, open a web browser (such as Google Chrome) and enter the following into the URL: `http://localhost:3000/`
+
+* Or consider visiting the portfolio directly at it's hosted domain: 
 
 # Getting Started with Create React App
 
@@ -42,33 +65,14 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Known Bugs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* _No known bugs, but I will continue to add relevant projects and additional learned skills as I generate them!_
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Please reach out with any questions or concerns to [eliot.lauren@gmail.com](eliot.lauren@gmail.com)
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+_[MIT](https://opensource.org/license/mit/)_
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# portfolio
+Copyright (c) 2023 _Eliot Gronstal_
