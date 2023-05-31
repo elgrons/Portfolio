@@ -381,6 +381,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 50%;
   margin: 0 auto 15px auto;
 }
+.skill .img-gradient {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .background-image-left {
   top: 28%;
   position: absolute;
