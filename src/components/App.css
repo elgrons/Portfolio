@@ -88,7 +88,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #000000 !important;
   letter-spacing: 0.9px;
   padding: 0 25px;
-  font-size: 24px;
+  font-size: 18px;
   opacity: 0.75;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -142,7 +142,7 @@ span.navbar-text {
   color: #000000;
   border: 1px solid #000000;
   padding: 18px 34px;
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 18px;
 	position: relative;
 	background-color: transparent;
@@ -232,12 +232,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 8px 10px;
   background: linear-gradient(90.21deg, #B39903 -5.91%, #CACDAC 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 52px;
+  font-size: 38px;
   margin-bottom: 16px;
   display: inline-block;
 }
 .banner h1 {
-  font-size: 72px;
+  font-size: 48px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -248,7 +248,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-family: 'Donegal One';
   text-decoration:double;
   color: #000000;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -257,14 +257,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button {
   color: #000000;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 18px;
   margin-top: 60px;
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
 }
 .banner button svg {
-  font-size: 25px;
+  font-size: 18px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
@@ -292,12 +292,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 8px 10px;
   background: linear-gradient(90.21deg, #B39903 -5.91%, #CACDAC 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 52px;
+  font-size: 38px;
   margin-bottom: 16px;
   display: inline-block;
 }
 .intro h1, h3 {
-  font-size: 68px;
+  font-size: 48px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -307,7 +307,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .intro p {
   font-family: 'Donegal One';
   color: #000;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -338,6 +338,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .intro .hobbies {
   border-style: dotted;
+  font-size: 18px;
   padding: 12px;
   margin-right: 28px;}
 
@@ -355,12 +356,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: solid;
 }
 .skill h2 {
-	font-size: 60px;
+	font-size: 42px;
 	font-weight: 700;
 }
 .skill p {
     color: #B8B8B8;
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
@@ -396,13 +397,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: #F0EAD6;
 }
 .project h2 {
-	font-size: 60px;
+	font-size: 42px;
 	font-weight: 700;
   text-align: center;
 }
 .project p {
   color: #B8B8B8;
-  font-size: 24px;
+  font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
@@ -540,7 +541,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 92%;
 }
 .contact h2 {
-	font-size: 45px;
+	font-size: 42px;
 	font-weight: 700;
   margin-bottom: 30px;
 }
@@ -614,7 +615,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .footer p {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 14px;
   color: #000000;
   letter-spacing: 0.5px;
   margin-top: 20px;

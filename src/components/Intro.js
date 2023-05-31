@@ -13,12 +13,12 @@ export const Intro = () => {
           <Col xs={12} s={8} md={5}>
           <div className="hobbies">
             <p>In my free time I enjoy:</p>
-            <h3><Flower1 size={38} /> Practicing vinyasa yoga</h3><br></br>
-            <h3><Flower1 size={38} /> Listening to music and attending concerts</h3><br></br>
-            <h3><Flower1 size={38} /> Collecting recipes and cooking plant-based goodies</h3><br></br>
-            <h3><Flower1 size={38} /> Devouring good stories: <a href=
+            <h3><Flower1 size={32} /> Practicing vinyasa yoga</h3><br></br>
+            <h3><Flower1 size={32} /> Listening to music and attending concerts</h3><br></br>
+            <h3><Flower1 size={32} /> Collecting recipes and cooking plant-based goodies</h3><br></br>
+            <h3><Flower1 size={32} /> Devouring good stories: <a href=
             "https://www.goodreads.com/user/show/7976181-eliot">science fiction & fantasy novels </a> especially, but I love TV shows and movies, too! </h3><br></br>
-            <h3><Flower1 size={38} /> My two cats: Handsome & Holiday</h3><br></br>
+            <h3><Flower1 size={32} /> My two cats: Handsome & Holiday</h3><br></br>
           </div>
             </Col>
             <Col xs={12} s={8} md={7}>
