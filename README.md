@@ -22,7 +22,7 @@
 * After the installation updates, in the root directory type `npm run start` to start the program
 * If the web page doesn't open on its own, open a web browser (such as Google Chrome) and enter the following into the URL: `http://localhost:3000/`
 
-* Or consider visiting the portfolio directly at it's hosted domain: 
+* Or consider visiting the portfolio directly at it's [hosted domain.](https://eliot-gronstal-porfolio.vercel.app/)
 
 ## Getting Started with Create React App
 
