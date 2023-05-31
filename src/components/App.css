@@ -393,13 +393,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 70%;
   z-index: -4;
 }
-.background-image-right {
+/* .background-image-right {
   top: 28%;
   position: absolute;
   bottom: 0;
   width: 50%;
   z-index: -4;
-}
+} */
 
 /**** Projects ****/
 .project {
