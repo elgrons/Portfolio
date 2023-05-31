@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+import { Envelope } from "react-bootstrap-icons";
 import headerImg from "../assets/img/ELGronstal.png";
 import React, { useState, useEffect } from "react";
 import 'animate.css';
@@ -58,7 +58,7 @@ export const Banner = () => {
                 <h1>{`Hi! I'm Eliot:`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Jr Software Engineer", "Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm an exuberant former service-industry pro pivoting into a new career in tech.<br></br><br></br>I'm eager to explore opportunities as a junior full-stack software engineer, solutions engineer, project manager, or another similarly related role where I can utilize my people skills and technical skills silmultaenously.<br></br></p>
                   <a href="mailto: eliot.lauren@gmail.com">
-                  <button onClick={() => console.log('contact')}>Let’s chat! <ArrowRightCircle size={38} /></button></a>
+                  <button onClick={() => console.log('contact')}>Let’s connect! <Envelope size={38} /></button></a>
               </div>}
             </TrackVisibility>
           </Col>

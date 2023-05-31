@@ -3,28 +3,30 @@ import gradient2 from "../assets/img/gradient2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { ProjectFolio } from "./ProjectFolio";
-// import projImg1 from "../assets/img/project-img1.png";
-// import projImg2 from "../assets/img/project-img2.png";
-// import projImg3 from "../assets/img/project-img3.png";
+import javascriptImg1 from "../assets/img/mrroboger.png";
+import javascriptImg2 from "../assets/img/niceslicepizza.png";
+import javascriptImg3 from "../assets/img/currencyexchanger.png";
 
 export const Projects = () => {
 
   const javascriptproj = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      // imgUrl: projImg1,
+      title: "Mr. Roboger's Neighborhood",
+      description: "A web app that takes a given number from a user and returns a list of values from 0 to the user's inputted number with funky robot substitutions returned.",
+      details: <a href='https://github.com/elgrons/mr-robogers-neighborhood'>Visit the GitHub Repo</a>,
+      imgUrl: javascriptImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      // imgUrl: projImg2,
+      title: "Nice Slice Pizza Parlor",
+      description: "A website for a vegan pizza company where a user can choose one or more individual toppings, a size to order a pizza, and see the final cost.",
+      details: <a href='https://github.com/elgrons/Nice-Slice-Pizza-Parlor'>Visit the GitHub Repo</a>,
+      imgUrl: javascriptImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      // imgUrl: projImg3,
-    }
+      title: "Currency Exchanger",
+      description: "A website where a user can input a number and convert it to it's equivalent amount in a different currency utilizing a money exchange API.",
+      details: <a href='https://github.com/elgrons/Currency-Exchange'>Visit the GitHub Repo</a>,
+      imgUrl: javascriptImg3,    }
   ];
 
     const csproj = [
@@ -111,7 +113,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          javascriptproj.map((project, index) => {
+                          javascriptproj.map((javascriptproj, index) => {
                             return (
                               <ProjectFolio
                                 key={index}
@@ -124,7 +126,7 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                     {
-                          csproj.map((project, index) => {
+                          csproj.map((csproj, index) => {
                             return (
                               <ProjectFolio
                                 key={index}
@@ -136,7 +138,7 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                     {
-                          reactproj.map((project, index) => {
+                          reactproj.map((reactproj, index) => {
                             return (
                               <ProjectFolio
                                 key={index}
@@ -148,7 +150,7 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="fourth">
                     {
-                          teamproj.map((project, index) => {
+                          teamproj.map((teamproj, index) => {
                             return (
                               <ProjectFolio
                                 key={index}

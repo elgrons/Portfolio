@@ -1,13 +1,14 @@
 import { Col } from "react-bootstrap";
 
-export const ProjectFolio = ({ title, description, imgUrl }) => {
+export const ProjectFolio = ({ title, description, details, imgUrl }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
         <img src={imgUrl} alt="a screenshot of the project" />
         <div className="proj-txtx">
           <h4>{title}</h4>
-          <span>{description}</span>
+          <span>{description}</span><br></br>
+          <span>{details}</span>
         </div>
       </div>
     </Col>
