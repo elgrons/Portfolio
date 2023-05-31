@@ -55,7 +55,7 @@ export const Projects = () => {
   const csproj = [
     {
       title: "Dr. Shamrock Sillystringz Factory",
-      description: "An ASP.NET Core MVC web application for a factory to manage their engineers and the whimsical machines they are licensed to fix. This web app utilizes MySQL and explores many-to-many relationships.",
+      description: "An ASP.NET Core MVC web application for a factory to manage their engineers and the whimsical machines they are licensed to fix.",
       details: (
         <a href="https://github.com/elgrons/ShamrockSillystringz.Solution">
           Visit the GitHub Repo
@@ -75,7 +75,7 @@ export const Projects = () => {
     },
     {
       title: "Grat-Shift-Save API",
-      description: "A .NET API created to host and track an authenticated users gratuity based income using a MySQL database. It was made with JWT for Authentication and uses Entity and Identity Frameworks. A corresponding React front end is currently a work in progress.",
+      description: "A .NET API created to host and track an authenticated users gratuity based income using a MySQL database.",
       details: (
         <a href="https://github.com/elgrons/GratShiftSaveApi.Solution">
           Visit the GitHub Repo
@@ -131,7 +131,7 @@ export const Projects = () => {
     },
     {
       title: "DiLPr",
-      description: "A .NET Mvc app for Dogs to find and match with other dogs to see if they're inpupatible or down to woof. Puppr Profiles include a profile photo, matching with other dogs based on likes and dislikes, and the ability to swipe left or right on other user's profiles.",
+      description: "A .NET Mvc app for Dogs to find `matching` compatability with other dogs. Puppr Profiles include a profile photo, matching with other dogs based on likes and dislikes, and the ability to swipe left or right on other user's profiles.",
       details: (
         <a href="https://github.com/elgrons/DiLPr.Solution">
           Visit the GitHub Repo
