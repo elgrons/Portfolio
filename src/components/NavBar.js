@@ -3,9 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { BrowserRouter as Router } from "react-router-dom";
 import navIcon1 from '../assets/img/navlinkedIn.png';
 import navIcon2 from '../assets/img/navgithubicon.svg';
-// import navIcon3 from '../assets/img/logo.svg';
 import './App.css';
-// import { HashLink } from 'react-router-hash-link';
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
@@ -33,7 +31,7 @@ export const NavBar = () => {
     <Router>
       <Navbar fixed="top" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="#home">eliot gronstal</Navbar.Brand>
+        <Navbar.Brand href="#home"style={{ fontFamily: 'Original Surfer' }}> eliot gronstal</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <span className="navbar-toggler-icon"></span>
         <Navbar.Collapse id="basic-navbar-nav">
