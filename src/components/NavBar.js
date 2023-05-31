@@ -33,7 +33,7 @@ export const NavBar = () => {
     <Router>
       <Navbar fixed="top" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="#home">E. L. G.</Navbar.Brand>
+        <Navbar.Brand href="#home">eliot gronstal</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <span className="navbar-toggler-icon"></span>
         <Navbar.Collapse id="basic-navbar-nav">
