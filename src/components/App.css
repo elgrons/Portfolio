@@ -68,7 +68,7 @@ p.danger {
 }
 /**** Navbar ****/
 nav.navbar {
-  padding: 20px 0;
+  padding: 18px 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -79,16 +79,14 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #ff6c5f;
 }
-nav.navbar a.navbar-brand {
-    width: 18%;
-}
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 720;
   font-variant: small-caps;
   color: #000000 !important;
   letter-spacing: 0.9px;
   padding: 0 25px;
-  font-size: 18px;
+  font-size: 14px;
   opacity: 0.75;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -104,8 +102,8 @@ span.navbar-text {
     margin-left: 14px;
 }
 .social-icon a {
-    width: 62px;
-    height: 62px;
+    width: 42px;
+    height: 42px;
     background: 000000(217, 217, 217, 0.1);
     display: inline-flex;
     border-radius: 50%;
@@ -117,8 +115,8 @@ span.navbar-text {
 }
 .social-icon a::before {
     content: "";
-    width: 62px;
-    height: 62px;
+    width: 42px;
+    height: 42px;
     position: absolute;
     background-color: #ffffff;
     border-radius: 50%;
@@ -142,7 +140,7 @@ span.navbar-text {
   color: #000000;
   border: 1px solid #000000;
   padding: 18px 34px;
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 18px;
 	position: relative;
 	background-color: transparent;
@@ -220,7 +218,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /**** Banner ****/
 .banner {
   margin-top: 0;
-  padding: 140px 0 100px 0;
+  padding: 240px 0 100px 0;
   background-image: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4)), url('../assets/img/portfoliobackgroundeg.png');
   background-position: top center;
   background-size: cover;
