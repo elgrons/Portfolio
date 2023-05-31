@@ -5,12 +5,12 @@ import { ProjectFolio } from "./ProjectFolio";
 import javascriptImg1 from "../assets/img/project/mrroboger.png";
 import javascriptImg2 from "../assets/img/project/niceslicepizza.png";
 import javascriptImg3 from "../assets/img/project/currencyexchanger.png";
-import csImg1 from "../assets/img/project/mrroboger.png";
-import csImg2 from "../assets/img/project/niceslicepizza.png";
-import csImg3 from "../assets/img/project/currencyexchanger.png";
-import reactImg1 from "../assets/img/project/mrroboger.png";
-import reactImg2 from "../assets/img/project/niceslicepizza.png";
-import reactImg3 from "../assets/img/project/currencyexchanger.png";
+import csImg1 from "../assets/img/project/sillystringz.png";
+import csImg2 from "../assets/img/project/pierresbakery.png";
+import csImg3 from "../assets/img/project/GratShiftSwaggerEndpoints.png";
+import reactImg1 from "../assets/img/project/coffeeroaster.png";
+import reactImg2 from "../assets/img/project/portfoliobanner.png";
+import reactImg3 from "../assets/img/project/comingsoon.svg";
 import teamImg1 from "../assets/img/project/walkencloset.png";
 import teamImg2 from "../assets/img/project/DilPr.png";
 import teamImg3 from "../assets/img/project/SurrealistDreams.png";
@@ -54,67 +54,67 @@ export const Projects = () => {
 
   const csproj = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Dr. Shamrock Sillystringz Factory",
+      description: "An ASP.NET Core MVC web application for a factory to manage their engineers and the whimsical machines they are licensed to fix. This web app utilizes MySQL and explores many-to-many relationships.",
       details: (
-        <a href="https://github.com/elgrons/Currency-Exchange">
+        <a href="https://github.com/elgrons/ShamrockSillystringz.Solution">
           Visit the GitHub Repo
         </a>
       ),
-      // imgUrl: projImg1,
+      imgUrl: csImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Sweet & Savory Baked Goods",
+      description: "A Mvc application to market sweet and savory treats for a proxy bakery. It features authentication and many-to-many relationships.",
       details: (
-        <a href="https://github.com/elgrons/Currency-Exchange">
+        <a href="https://github.com/elgrons/SweetAndSavory.Solution">
           Visit the GitHub Repo
         </a>
       ),
-      // imgUrl: projImg2,
+      imgUrl: csImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Grat-Shift-Save API",
+      description: "A .NET API created to host and track an authenticated users gratuity based income using a MySQL database. It was made with JWT for Authentication and uses Entity and Identity Frameworks. A corresponding React front end is currently a work in progress.",
       details: (
-        <a href="https://github.com/elgrons/Currency-Exchange">
+        <a href="https://github.com/elgrons/GratShiftSaveApi.Solution">
           Visit the GitHub Repo
         </a>
       ),
-      // imgUrl: projImg3,
+      imgUrl: csImg3,
     },
   ];
 
   const reactproj = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Coffee Inventory",
+      description: "A React.js application that tracks inventory for a provisional local coffee roaster that includes CRUD functionality.",
       details: (
-        <a href="https://github.com/elgrons/Currency-Exchange">
+        <a href="https://github.com/elgrons/CoffeeRoasterInventory">
           Visit the GitHub Repo
         </a>
       ),
-      // imgUrl: projImg1,
+      imgUrl: reactImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "This Portfolio!",
+      description: "A little bit about me...",
       details: (
-        <a href="https://github.com/elgrons/Currency-Exchange">
+        <a href="https://github.com/elgrons/portfolio">
           Visit the GitHub Repo
         </a>
       ),
-      // imgUrl: projImg2,
+      imgUrl: reactImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "More Coming Soon!",
+      description: "More React projects on the way, including the front-end for my Grat-Shift-Save Api!",
       details: (
-        <a href="https://github.com/elgrons/Currency-Exchange">
+        <a href="https://github.com/elgrons">
           Visit the GitHub Repo
         </a>
       ),
-      // imgUrl: projImg3,
+      imgUrl: reactImg3,
     },
   ];
 

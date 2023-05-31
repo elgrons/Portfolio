@@ -15,7 +15,7 @@ body {
   overflow-x: hidden;
   position: relative;
   background-color: #ff6c5f !important;
-  color: #52565e !important;
+  color: #000 !important;
   font-family: 'Jost', sans-serif, !important;
 }
 
@@ -30,7 +30,7 @@ p, a, li, button, ul {
   padding: 0;
   line-height: normal;
   text-decoration: none;
-  color: #52565e !important;
+  color: #000 !important;
   font-weight: 400;
 }
 
@@ -244,6 +244,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
+  font-family: 'Donegal One';
+  text-decoration:double;
   color: #000000;
   font-size: 28px;
   font-weight: 800;
