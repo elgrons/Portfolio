@@ -83,11 +83,11 @@ export const Skills = () => {
           src={gradient1}
           alt="gradient circle at the corner of the skill section"
         />
-        {/* <img
+        <img
           className="background-image-right"
           src={gradient2}
           alt="gradient circle at the corner of the skill section"
-        /> */}
+        />
       </div>
     </section>
   );

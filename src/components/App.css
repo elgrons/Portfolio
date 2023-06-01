@@ -390,16 +390,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 28%;
   position: absolute;
   bottom: 0;
-  width: 70%;
+  width: 40%;
   z-index: -4;
 }
-/* .background-image-right {
-  top: 28%;
+.background-image-right {
+  top: 20%;
   position: absolute;
   bottom: 0;
-  width: 50%;
+  width: 25%;
   z-index: -4;
-} */
+}
 
 /**** Projects ****/
 .project {
