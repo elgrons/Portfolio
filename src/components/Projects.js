@@ -120,7 +120,7 @@ export const Projects = () => {
 
   const teamproj = [
     {
-      title: "Christopher Walken Closet",
+      title: "Christopher Walk-In Closet",
       description: "A closet builder made using JavaScript based on a user's input `mood` color that returns a suggested palette with an API and has links for shopping. ",
       details: (
         <a href="https://github.com/elgrons/team-thread">
