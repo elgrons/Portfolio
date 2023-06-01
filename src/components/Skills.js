@@ -76,19 +76,7 @@ export const Skills = () => {
             </div>
           </Col>
         </Row>
-        </Container>
-        <div className="img-gradient">
-        <img
-          className="background-image-left"
-          src={gradient1}
-          alt="gradient circle at the corner of the skill section"
-        />
-        <img
-          className="background-image-right"
-          src={gradient2}
-          alt="gradient circle at the corner of the skill section"
-        />
-      </div>
+      </Container>
     </section>
   );
 };
