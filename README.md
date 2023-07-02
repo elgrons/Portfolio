@@ -67,7 +67,9 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Known Bugs
 
-* _No known bugs, but I will continue to add relevant projects and additional learned skills as I generate them!_
+* _This site isn't very mobile friendly. I encoruage users to check it out on device larger than a phone._
+
+* _I will continue to add relevant projects and additional learned skills as I generate them!_
 
 * Please reach out with any questions or concerns to [eliot.lauren@gmail.com](eliot.lauren@gmail.com)
 

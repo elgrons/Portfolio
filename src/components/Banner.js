@@ -55,8 +55,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to My Portfolio</span>
-                <h1>{`Hi! I'm Eliot:`}<br></br> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Jr. Software Engineer", "Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm an exuberant former service-industry pro pivoting into a new career in tech.<br></br><br></br>I'm eager to explore opportunities as a junior full-stack software engineer, solutions engineer, project manager, or another similarly related role where I can utilize my people skills and technical skills silmultaenously.<br></br></p>
+                <h1>{`Hi! I'm Eliot:`}<br></br> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>I'm an exuberant former service-industry pro pivoting into a new career in tech.<br></br><br></br>I'm eager to explore opportunities where I can successfully merge my people skills and technical skills.<br></br></p>
                   <a href="mailto: eliot.lauren@gmail.com">
                   <button onClick={() => console.log('contact')}>Let’s connect! <Envelope size={38} /></button></a>
               </div>}
