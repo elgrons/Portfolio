@@ -25,9 +25,9 @@ export const Intro = () => {
             <div>
                 <span className="tagline">About Me</span>
                   <p>I'm an enthusiastic former service-industry pro segueing into a career in tech.<br></br><br></br> After 8.5 years of working for a <a href="https://breakside.com/">world-class microbrewery</a>, I decided to make a pivot in and pursue a career in software development. I completed my Mobile and Web Development Certificate at <a href="https://www.epicodus.com/">Epicodus</a>.</p>
-                  <br></br><br></br> 
+                  <br></br>
                   <p>I am eager to bring my top-notch communication skills, organizational prowess, and growth mindset to a new team.</p>
-                  <br></br><br></br>
+                  <br></br>
                   <p>I value community and connection and love when I'm able to collaborate with others.</p>
               </div>
           </Col>
