@@ -220,6 +220,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+@media (max-width: 768px) {
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 12px;
+  }
+}
+
+/* Adjust container padding for smaller screens */
+@media (max-width: 480px) {
+  main .container {
+    padding: 0 10px;
+  }
+}
+
+/* Adjust image sizes for smaller screens */
+@media (max-width: 768px) {
+  .social-icon a img {
+    width: 30%;
+  }
+}
+
 /**** Banner ****/
 .banner {
   margin-top: 0;

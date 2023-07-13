@@ -29,7 +29,7 @@ export const NavBar = () => {
 
   return (
     <Router>
-      <Navbar fixed="top" className={scrolled ? "scrolled" : ""}>
+      <Navbar collapseOnSelect expand="md" fixed="top" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <span className="navbar-toggler-icon"></span>
