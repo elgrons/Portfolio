@@ -10,7 +10,8 @@ import csImg2 from "../assets/img/project/pierresbakery.png";
 import csImg3 from "../assets/img/project/GratShiftSwaggerEndpoints.png";
 import reactImg1 from "../assets/img/project/coffeeroaster.png";
 import reactImg2 from "../assets/img/project/portfoliobanner.png";
-import reactImg3 from "../assets/img/project/comingsoon.svg";
+// import reactImg3 from "../assets/img/project/comingsoon.svg";
+import reactImg3 from "../assets/img/project/ClientConnect.png";
 import teamImg1 from "../assets/img/project/walkencloset.png";
 import teamImg2 from "../assets/img/project/DilPr.png";
 import teamImg3 from "../assets/img/project/SurrealistDreams.png";
@@ -107,10 +108,10 @@ export const Projects = () => {
       imgUrl: reactImg2,
     },
     {
-      title: "More Coming Soon!",
-      description: "More React projects on the way, including the front-end for my Grat-Shift-Save Api!",
+      title: "Client Connect",
+      description: "A project management platform for a provisional software development company featuring multiple third-party integrations.",
       details: (
-        <a href="https://github.com/elgrons">
+        <a href="https://github.com/elgrons/summer-internship-2023">
           Visit the GitHub Repo
         </a>
       ),
