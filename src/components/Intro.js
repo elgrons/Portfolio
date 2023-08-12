@@ -24,11 +24,11 @@ export const Intro = () => {
             <Col xs={12} s={8} md={7}>
             <div>
                 <span className="tagline">About Me</span>
-                  <p>I'm an enthusiastic former service-industry pro segueing into a career in tech.<br></br><br></br> After 8.5 years of working for a <a href="https://breakside.com/">world-class microbrewery</a>, I decided to make a pivot in and pursue a career in software development. I completed my Mobile and Web Development Certificate at <a href="https://www.epicodus.com/">Epicodus</a>.</p>
+                  <p>I'm an passionate communicator and I love to explore the fascinating ways people connect, both online and offline.<br></br><br></br> After 8.5 years of working for a <a href="https://breakside.com/">world-class microbrewery</a>, I decided to pivot and pursue a career in software development. I completed a certificate in Mobile and Web Development at <a href="https://www.epicodus.com/">Epicodus</a> in 2023.</p>
                   <br></br>
-                  <p>I am eager to bring my top-notch communication skills, organizational prowess, and growth mindset to a new team.</p>
+                  <p>I bring my top-notch communication skills, organizational prowess, and growth mindset to every team and project I'm part of.</p>
                   <br></br>
-                  <p>I value community and connection and love when I'm able to collaborate with others.</p>
+                  <p>I value community and connection and love to collaborate with others.</p>
               </div>
           </Col>
         </Row>
