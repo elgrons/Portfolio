@@ -10,7 +10,6 @@ import csImg2 from "../assets/img/project/pierresbakery.png";
 import csImg3 from "../assets/img/project/GratShiftSwaggerEndpoints.png";
 import reactImg1 from "../assets/img/project/coffeeroaster.png";
 import reactImg2 from "../assets/img/project/portfoliobanner.png";
-// import reactImg3 from "../assets/img/project/comingsoon.svg";
 import reactImg3 from "../assets/img/project/ClientConnect.png";
 import teamImg1 from "../assets/img/project/walkencloset.png";
 import teamImg2 from "../assets/img/project/DilPr.png";
