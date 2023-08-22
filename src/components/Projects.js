@@ -3,7 +3,7 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { ProjectFolio } from "./ProjectFolio";
 import javascriptImg1 from "../assets/img/project/mrroboger.png";
-import javascriptImg2 from "../assets/img/project/niceslicepizza.png";
+import javascriptImg2 from "../assets/img/project/AgeCalc.png";
 import javascriptImg3 from "../assets/img/project/currencyexchanger.png";
 import csImg1 from "../assets/img/project/sillystringz.png";
 import csImg2 from "../assets/img/project/pierresbakery.png";
@@ -29,11 +29,11 @@ export const Projects = () => {
       imgUrl: javascriptImg1,
     },
     {
-      title: "Nice Slice Pizza Parlor",
+      title: "Super Galatic Age Calculator",
       description:
-        "A website for a vegan pizza company where a user can choose one or more individual toppings, a size to order a pizza, and see the final cost.",
+        "A website where a user can input different ages and recieve their age on different planets in our solar system! The project features TDD and the ES6 feature class. Far out!",
       details: (
-        <a href="https://github.com/elgrons/Nice-Slice-Pizza-Parlor">
+        <a href="https://github.com/elgrons/Super-Galactic-Age-Calc">
           Visit the GitHub Repo
         </a>
       ),
