@@ -1,8 +1,10 @@
-# _Eliot's Portfolio Site_
+# _Eliot's Portfolio_
 
 #### By Eliot Gronstal 5.31.23
 
-#### _A React portfolio site designed to give a visitor an idea of who I am, what I've been working on, and a way to connect directly._
+![PortfolioSite](PortfolioSite.png)
+
+#### _A React portfolio application designed to give a visitor an idea of who I am, what I've been working on, and a way to directly connect._
 
 ## Technologies Used
 
@@ -12,6 +14,7 @@
 * _Emailjs_
 * _Nodemailer_
 * _Node.js_
+* _VS Code_
 
 ## Setup/Installation Requirements
 
@@ -67,9 +70,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Known Bugs
 
-* _This site isn't very mobile friendly. I encoruage users to check it out on device larger than a phone._
-
-* _I will continue to add relevant projects and additional learned skills as I generate them!_
+* _Not a bug per se, but a guarantee for future updates: I will continue to add relevant projects and additional learned skills._
 
 * Please reach out with any questions or concerns to [eliot.lauren@gmail.com](eliot.lauren@gmail.com)
 
