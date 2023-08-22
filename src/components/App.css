@@ -16,7 +16,7 @@ body {
   position: relative;
   background-color: #ff6c5f !important;
   color: #000 !important;
-  font-family: 'Jost', sans-serif, !important;
+  font-family: 'Inter', !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -87,7 +87,6 @@ nav.navbar.scrolled {
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 720;
-  font-variant: small-caps;
   color: #000000 !important;
   letter-spacing: 0.9px;
   padding: 0 25px;
@@ -268,7 +267,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  font-family: 'Donegal One';
+  font-family: 'Inter';
   text-decoration:double;
   color: #000000;
   font-size: 18px;
@@ -336,7 +335,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .intro p {
-  font-family: 'Donegal One';
+  font-family: 'Inter';
   color: #000;
   font-size: 18px;
   font-weight: 800;

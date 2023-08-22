@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Donegal+One&family=Jost&family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Donegal+One&family=Jost&family=Inter&family=Bitter&family=Original+Surfer&display=swap');
 
 *{
-  font-family: 'Jost', sans-serif;
+  font-family: 'Bitter', sans-serif;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Jost' 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, 'Jost', ' Bitter', 'Inter', 'Segoe UI', 'Donegal One', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
