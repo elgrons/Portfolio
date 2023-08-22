@@ -16,19 +16,18 @@ export const Intro = () => {
             <h3><Flower1 size={32} /> Practicing vinyasa yoga</h3><br></br>
             <h3><Flower1 size={32} /> Listening to music and attending concerts</h3><br></br>
             <h3><Flower1 size={32} /> Collecting and cooking plant-based recipes</h3><br></br>
-            <h3><Flower1 size={32} /> Devouring good stories (<a href=
-            "https://www.goodreads.com/user/show/7976181-eliot">science fiction & fantasy novels </a> especially, but TV shows and movies, too!) </h3><br></br>
+            <h3><Flower1 size={32} /> Devouring good stories (science fiction & fantasy novels especially, but TV shows and movies, too!) </h3><br></br>
             <h3><Flower1 size={32} /> My cats: Handsome & Holiday</h3><br></br>
           </div>
             </Col>
             <Col xs={12} s={8} md={7}>
             <div>
                 <span className="tagline">About Me</span>
-                  <p>I'm an passionate communicator and I love to explore the fascinating ways people connect, both online and offline.<br></br><br></br> After 8.5 years of working for a <a href="https://breakside.com/">world-class microbrewery</a>, I decided to pivot and pursue a career in software development. I completed a certificate in Mobile and Web Development at Epicodus in 2023.</p>
+                  <p>I'm an enthusiastic communicator and I love to explore the fascinating ways people connect, both online and offline.<br></br><br></br> After years of experience in the service industry, I decided to pivot and embrace my love of continuous learning. I chose to redirect my passion for people and innovative solutions and pursue a career in software development. I'm excited to have a new opportunity to deploy my soft skills and my tehcnical abilities.</p>
                   <br></br>
-                  <p>I bring my top-notch communication skills, organizational prowess, and growth mindset to every team and project I'm part of.</p>
+                  <p>I bring top-notch communication skills, organizational acumen, management experience, and an optimistic growth mindset to every team and project I'm part of.</p>
                   <br></br>
-                  <p>I value community and connection and love to collaborate with others.</p>
+                  <p>I value community and connection and love to collaborate.</p>
               </div>
           </Col>
         </Row>

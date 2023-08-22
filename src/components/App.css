@@ -14,7 +14,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #ff6c5f !important;
+  background-color: #C99A2E !important;
   color: #000 !important;
   font-family: 'Inter', !important;
 }
@@ -82,7 +82,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #ff6c5f;
+  background-color: #C99A2E;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
