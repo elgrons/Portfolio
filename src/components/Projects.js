@@ -6,7 +6,7 @@ import javascriptImg1 from "../assets/img/project/mrroboger.png";
 import javascriptImg2 from "../assets/img/project/AgeCalc.png";
 import javascriptImg3 from "../assets/img/project/currencyexchanger.png";
 import csImg1 from "../assets/img/project/sillystringz.png";
-import csImg2 from "../assets/img/project/pierresbakery.png";
+import csImg2 from "../assets/img/project/sweetandsavory.png";
 import csImg3 from "../assets/img/project/GratShiftSwaggerEndpoints.png";
 import reactImg1 from "../assets/img/project/coffeeroaster.png";
 import reactImg2 from "../assets/img/project/portfoliobanner.png";
@@ -97,8 +97,8 @@ export const Projects = () => {
       imgUrl: reactImg1,
     },
     {
-      title: "This Portfolio!",
-      description: "A little bit about me...",
+      title: "My Portfolio",
+      description: "A dynamic platform for exhibiting my skills, projects, and my personality",
       details: (
         <a href="https://github.com/elgrons/portfolio">
           Visit the GitHub Repo
@@ -165,8 +165,7 @@ export const Projects = () => {
                 >
                   <h2>Recent Projects</h2>
                   <p>
-                    Explore my portfolio of work using both back-end and
-                    front-end technologies.
+                    Explore my portfolio of work using full stack technologies.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
