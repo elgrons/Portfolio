@@ -25,11 +25,11 @@ export const Intro = () => {
             <Col xs={12} s={8} md={7}>
             <div>
                 <span className="tagline">About Me</span>
-                  <p>Hi, I'm Eliot! I'm a positive person and skilled communicator who loves to bring brand narratives to life by developing technical solutions for modern problems.<br></br><br></br> My background in full-stack software development, private events, customer service, sales, and BA in Journalism boost my natural empathy and curiousity to ask the right questions, collect data, and deliver innovative solutions. I'm excited to deploy my singular blend of skills to build relationships with stakeholders and clients and provide a world-class product experience.</p>
+                  <p>I'm a positive person and skilled communicator who loves to bring brand narratives to life by developing technical solutions for modern problems.<br></br><br></br> My background in full-stack software development, private events, customer service, sales, and BA in Journalism boost my natural empathy and curiosity to ask the right questions, collect data, and deliver innovative solutions. I'm excited to deploy my singular blend of skills to build relationships with stakeholders and clients and provide a world-class product experience.</p>
                   <br></br>
                   <p>I bring my growth mindset and optimistic energy to every team and project I'm part of.</p>
                   <br></br>
-                  <p>I value community and connection and collaboration.</p>
+                  <p>I value community, connection, and collaboration.</p>
                   <br></br>
                   <p>Fun Fact: I've been featured on the cover of an industry-wide trade magazine!</p>
                   <img src={CoverGirl} alt="Eliot Cover Girl Img"/>

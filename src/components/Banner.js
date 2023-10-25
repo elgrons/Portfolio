@@ -56,7 +56,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome!</span>
                 <h1>{`Hi! I'm Eliot:`}<br></br> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "Solutions Engineer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm an enthusiastic go-getter pivoting to a career in tech.<br></br><br></br>I'm excited to transition into a role that effectively merges my ability to connect with others and my passion for innovative solutions.<br></br></p>
+                  <p>I love opportunities to merge my ability to connect with others and passion for developing innovative solutions.<br></br></p>
                   <a href="mailto: eliot.lauren@gmail.com">
                   <button onClick={() => console.log('contact')}>Let’s connect! <Envelope size={38} /></button></a>
               </div>}
