@@ -50,7 +50,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={flower2} alt="Icon to show skill" />
-                  <h5>C#/.NET Core 6</h5>
+                  <h5>C# | .NET Core 6</h5>
                 </div>
                 <div className="item">
                   <img src={flower3} alt="Icon to show skill" />
@@ -66,11 +66,11 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={flower2} alt="Icon to show skill" />
-                  <h5>HTML/CSS</h5>
+                  <h5>HTML & CSS</h5>
                 </div>
                 <div className="item">
                   <img src={flower3} alt="Icon to show skill" />
-                  <h5>SQL/NoSQL</h5>
+                  <h5>SQL | NoSQL</h5>
                 </div>
                 <div className="item">
                 <img src={flower1} alt="Icon to show skill" />
@@ -82,7 +82,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={flower3} alt="Icon to show skill" />
-                  <h5>Postman/Swagger</h5>
+                  <h5>Postman | Swagger</h5>
                 </div>
                 <div className="item">
                 <img src={flower1} alt="Icon to show skill" />
