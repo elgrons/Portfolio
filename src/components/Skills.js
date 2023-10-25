@@ -50,7 +50,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={flower2} alt="Icon to show skill" />
-                  <h5>C#/.NET</h5>
+                  <h5>C#/.NET Core 6</h5>
                 </div>
                 <div className="item">
                   <img src={flower3} alt="Icon to show skill" />
@@ -58,7 +58,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={flower1} alt="Icon to show skill" />
-                  <h5>JavaScript/CSS</h5>
+                  <h5>JavaScript</h5>
                 </div>
                 <div className="item">
                   <img src={flower1} alt="Icon to show skill" />
@@ -66,11 +66,35 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={flower2} alt="Icon to show skill" />
-                  <h5>Test Driven Development</h5>
+                  <h5>HTML/CSS</h5>
                 </div>
                 <div className="item">
                   <img src={flower3} alt="Icon to show skill" />
-                  <h5>MySQL</h5>
+                  <h5>SQL/NoSQL</h5>
+                </div>
+                <div className="item">
+                <img src={flower1} alt="Icon to show skill" />
+                  <h5>Test Driven Development</h5>
+                </div>
+                <div className="item">
+                  <img src={flower2} alt="Icon to show skill" />
+                  <h5>Git Workflow</h5>
+                </div>
+                <div className="item">
+                  <img src={flower3} alt="Icon to show skill" />
+                  <h5>Postman/Swagger</h5>
+                </div>
+                <div className="item">
+                <img src={flower1} alt="Icon to show skill" />
+                  <h5>Agile & Scrum Methodologies</h5>
+                </div>
+                <div className="item">
+                  <img src={flower2} alt="Icon to show skill" />
+                  <h5>Project Management</h5>
+                </div>
+                <div className="item">
+                  <img src={flower3} alt="Icon to show skill" />
+                  <h5>Node.js</h5>
                 </div>
               </Carousel>
             </div>
