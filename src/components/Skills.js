@@ -4,8 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import flower1 from "../assets/img/flower1.png";
 import flower2 from "../assets/img/flower2.png";
 import flower3 from "../assets/img/flower3.png";
-import gradient1 from "../assets/img/gradient1.png";
-import gradient2 from "../assets/img/gradient2.png";
+// import gradient1 from "../assets/img/gradient1.png";
+// import gradient2 from "../assets/img/gradient2.png";
 
 export const Skills = () => {
   const responsive = {

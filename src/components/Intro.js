@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Flower1 } from "react-bootstrap-icons";
-// import introImg from "../assets/img/ELGronstal.png";
+import CoverGirl from "../assets/img/EliotCoverGirl.png";
 import 'animate.css';
 import './App.css';
 
@@ -16,7 +16,9 @@ export const Intro = () => {
             <h3><Flower1 size={32} /> Practicing vinyasa yoga</h3><br></br>
             <h3><Flower1 size={32} /> Listening to music and attending concerts</h3><br></br>
             <h3><Flower1 size={32} /> Collecting and cooking plant-based recipes</h3><br></br>
-            <h3><Flower1 size={32} /> Devouring good stories (science fiction & fantasy novels especially, but TV shows and movies, too!) </h3><br></br>
+            <h3><Flower1 size={32} /> Reading science fiction and fantasy novels</h3><br></br>
+            <h3><Flower1 size={32} /> Volunteering with PDX WIT and at the 
+            <a href="https://www.instagram.com/p/CySHjUpL2kG/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="> Hollywood Theater</a></h3><br></br>
             <h3><Flower1 size={32} /> My cats: Handsome & Holiday</h3><br></br>
           </div>
             </Col>
@@ -28,6 +30,9 @@ export const Intro = () => {
                   <p>I bring top-notch communication skills, organizational acumen, management experience, and an optimistic growth mindset to every team and project I'm part of.</p>
                   <br></br>
                   <p>I value community and connection and love to collaborate.</p>
+                  <br></br>
+                  <p>Fun Fact: I've been featured on the cover of an industry-wide trade magazine!</p>
+                  <img src={CoverGirl} alt="Eliot Cover Girl Img"/>
               </div>
           </Col>
         </Row>
