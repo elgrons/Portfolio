@@ -25,9 +25,9 @@ export const Intro = () => {
             <Col xs={12} s={8} md={7}>
             <div>
                 <span className="tagline">About Me</span>
-                  <p>I'm an enthusiastic communicator and I love to explore the fascinating ways people connect, both online and offline.<br></br><br></br> After years of experience in the service industry, I decided to pivot and embrace my love of continuous learning. I chose to redirect my passion for people and innovative solutions and pursue a career in software development. I'm excited to have a new opportunity to deploy my soft skills and my tehcnical abilities.</p>
+                  <p>I'm a postivie person and skilled communicator who loves to explore the fascinating ways people connect, both online and offline.<br></br><br></br> With over 10 years of customer facing experience in the events and service industries and a BA in Journalism, I embraced my love of continuous learning and decided to pursue a career in software development. I'm excited put my singular blend of communication, customer service, project management, and technical skills to deliver innovative solutions and  a world-class product experience.</p>
                   <br></br>
-                  <p>I bring top-notch communication skills, organizational acumen, management experience, and an optimistic growth mindset to every team and project I'm part of.</p>
+                  <p>I bring my growth mindset and optimistic energy to every team and project I'm part of.</p>
                   <br></br>
                   <p>I value community and connection and love to collaborate.</p>
                   <br></br>
