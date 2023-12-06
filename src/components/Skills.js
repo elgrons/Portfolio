@@ -36,8 +36,7 @@ export const Skills = () => {
             <div className="skill-box">
               <h2>Skills</h2>
               <p>
-                I'm enthusiastic about what I know, and I'm eager to add new
-                technologies to this list as I learn them.
+                I'm enthusiastic about what I know, and I'm eager to continue to learn.
               </p>
               <Carousel
                 responsive={responsive}
