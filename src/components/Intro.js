@@ -25,7 +25,7 @@ export const Intro = () => {
             <Col xs={12} md={6} xl={7}>
             <div>
                 <span className="tagline">About Me</span>
-                  <p>I'm a positive person and skilled communicator who loves to bring brand narratives to life by developing technical solutions for modern problems.<br></br><br></br> My background in full-stack software development, private events, customer service, sales, and BA in Journalism boost my natural empathy and curiosity to ask the right questions, collect data, and deliver innovative solutions. I'm excited to deploy my singular blend of skills to build relationships with stakeholders and clients and provide a world-class product experience.</p>
+                  <p>I'm a naturally positive and skilled communicator commited to delivering technical solutions with a "people-first" mindset.<br></br><br></br> I have a BA in Journalism, leveraged with experience in full-stack software development, customer service, and event coordination. The combination of my innate curiosity and professional history enables me to ask the right questions, collect data, and deliver high-quality products. I'm interested in working within a team as a collaborator to utilize my strong communication skills to build relationships and provide a world-class product experience.</p>
                   <br></br>
                   <p>I bring my growth mindset and optimistic energy to every team and project I'm part of.</p>
                   <br></br>
