@@ -46,7 +46,7 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/elgrons/"><img src={navIcon1} alt="LinkedIn nav icon" /></a>
                 <a href="https://github.com/elgrons"><img src={navIcon2} alt="GitHub nav icon" /></a>
               </div>
-              <a href="https://drive.google.com/file/d/1ZZqY7Nmdv8tzTkOcF6D0C4bRM9oCrz25/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1TSgmBu0syRBqKG8wMHikQdDpzAUpWLqW/view">
               <button className="vvd" onClick={() => console.log ('resume')}><span>Review My Resume</span></button></a>
             </span>
           </Navbar.Collapse>
