@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Flower1 } from "react-bootstrap-icons";
-import CoverGirl from "../assets/img/EliotCoverGirl.png";
 import 'animate.css';
 import './App.css';
 

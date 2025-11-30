@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Envelope } from "react-bootstrap-icons";
-import headerImg from "../assets/img/ELGronstal.png";
+import headerImg from "../assets/img/eliotprofilepic.png";
 import React, { useState, useEffect } from "react";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
