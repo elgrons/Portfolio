@@ -17,8 +17,7 @@ export const Intro = () => {
             <h3><Flower1 size={32} /> Listening to music and attending concerts</h3><br></br>
             <h3><Flower1 size={32} /> Collecting and cooking plant-based recipes</h3><br></br>
             <h3><Flower1 size={32} /> Reading science fiction and fantasy novels</h3><br></br>
-            <h3><Flower1 size={32} /> Volunteering with PDX WIT and at the 
-            <a href="https://www.instagram.com/p/CySHjUpL2kG/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="> Hollywood Theater</a></h3><br></br>
+            <h3><Flower1 size={32} /> Volunteering at a historic, local theater</h3><br></br>
             <h3><Flower1 size={32} /> My cats: Handsome & Holiday</h3><br></br>
           </div>
             </Col>
