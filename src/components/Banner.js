@@ -11,7 +11,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = [ "Full Stack Web Dev", "Client Success" ];
+  const toRotate = [ "Full Stack Web Dev", "Client Success Specialist" ];
   const period = 2000;
 
   useEffect(() => {
@@ -55,21 +55,21 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome!</span>
-                <h1>{`Hi! I'm Eliot:`}<br></br> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "Software Engineer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Eliot:`}<br></br> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Web Dev", "Client Success Specialist" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Collaborative and empathetic full stack web developer with a customer-focused mindset looking to optimize product experieneces and deliver innovative solutions.<br></br></p>
                   <a href="mailto: eliot.lauren@gmail.com">
                   <button onClick={() => console.log('contact')}>Let’s connect! <Envelope size={38} /></button></a>
               </div>}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
+           <Col xs={12} md={6} xl={5}>
+           <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
-                </div>}
+               <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                 <img src={headerImg} alt="Header Img"/>
+               </div>}
             </TrackVisibility>
-          </Col>
+         </Col>
         </Row>
       </Container>
     </section>
