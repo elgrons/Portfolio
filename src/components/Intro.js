@@ -31,8 +31,6 @@ export const Intro = () => {
                   <br></br>
                   <p>I value community, connection, and collaboration.</p>
                   <br></br>
-                  <p>Fun Fact: I've been featured on the cover of an industry-wide trade magazine!</p>
-                  <img src={CoverGirl} class="col-md-4 float-md-auto mb-4 ms-md-4" alt="Eliot Cover Girl Img"/>
               </div>
           </Col>
         </Row>
